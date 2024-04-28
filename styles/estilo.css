@@ -478,6 +478,7 @@ div.tag-objeto {
     margin-bottom: 10px;
     background-color: rgb(237, 164, 10);
     border-radius: 2%;
+
 }
 
 .aside1 .nav-destinos li {
@@ -494,12 +495,7 @@ div.tag-objeto {
     width: 100%;
 }
 
-.aside .aside1 img:hover {
-    border: #4f6781 solid 5px;
-    border-radius: 10%;
-    opacity: 8;
-    width: 99%;
-}
+
 
 .aside2 {
     height: 400px;
@@ -806,6 +802,11 @@ div.tag-objeto {
 
     /*-------------motorhome----------*/
 
+    .tag-iframe {
+        max-width: 100%;
+    }
+
+
     .texto-secciones h4 {
         margin-top: 34px;
         padding-top: 18px;
@@ -816,6 +817,20 @@ div.tag-objeto {
     .formulario {
         flex-direction: column;
         padding-top: 50px;
+
+    }
+
+    .formulario .formulario-izq {
+        width: 100%;
+    }
+
+    .formulario .formulario-der {
+        width: 100%;
+        text-align: center;
+    }
+
+    .formulario .formulario-der .campo {
+        text-align: center;
     }
 
     /*------------------aside-------*/
@@ -879,11 +894,81 @@ div.tag-objeto {
         color: bisque;
     }
 
-    /*---------------Footer--------------*/
+    /*footer*/
+
+    .footer {
+        width: 100%;
+        grid-area: footer;
+        display: flex;
+        flex-direction: column;
+        /* Cambiado a columna */
+        justify-content: center;
+        /* Centrado vertical */
+        align-items: center;
+        /* Centrado horizontal */
+        background-color: rgb(0, 119, 149);
+        border-top: #232f3c solid 2px;
+    }
+
+    .footer1 {
+        text-align: center;
+    }
+
+    .footer1 h2 {
+        color: white;
+        font-size: 2.5rem;
+        margin-top: 0px;
+        margin-bottom: 40px;
+        /* Cambiado a margen superior para espacio */
+    }
+
+    .footer1 .logo img {
+        width: 120px;
+        border-radius: 100%;
+    }
+
+    .footer1 p {
+        font-size: .5rem;
+        color: #91aac5;
+    }
+
+    .footer2 {
+        text-align: center;
+        display: none;
+    }
+
+    .footer2 li {
+        text-align: center;
+    }
+
+    .footer2 li a {
+        color: white;
+    }
+
+    .footer3 {
+        text-align: center;
+    }
+
+    .footer3 a img {
+        width: 70px;
+        padding: 10px;
+        border-radius: 40%;
+    }
+
+
+
+
+
+
+
+
+    /*---------------Footer------------
 
     .footer {
         grid-area: footer;
         flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer1 {
@@ -892,14 +977,17 @@ div.tag-objeto {
 
 
     .footer2 {
-        width: 50%;
+        width: 100%;
+    }
+
+    .footer2 ul {
         text-align: center;
     }
 
 
     .footer3 {
         text-align: center;
-        width: 50%;
+        width: 100%;
     }
 
-}
+}--*/
