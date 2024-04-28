@@ -164,6 +164,8 @@ h3 {
     background-color: #90d3bb;
     border-radius: 2%;
     border: rgb(222, 91, 37) solid 2px;
+    margin: auto;
+    width: 98%;
 }
 
 .tag-destacado h3 {
@@ -621,7 +623,7 @@ div.tag-objeto {
 ---------------------Mobile-------------------
 --------------------------------------------*/
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 480px) {
 
 
     .contenedor {
@@ -693,7 +695,7 @@ div.tag-objeto {
     }
 
     .hero-section {
-        width: 576px;
+        width: 480px;
         padding: 0;
         margin: 0;
         margin-bottom: 50px;
@@ -957,12 +959,12 @@ div.tag-objeto {
 
 
 
+}
 
 
 
 
-
-    /*---------------Footer------------
+/*---------------Footer------------
 
     .footer {
         grid-area: footer;
@@ -990,4 +992,4 @@ div.tag-objeto {
         width: 100%;
     }
 
-}--*/
+}*/
