@@ -623,7 +623,7 @@ div.tag-objeto {
 ---------------------Mobile-------------------
 --------------------------------------------*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 
 
     .contenedor {
@@ -689,13 +689,13 @@ div.tag-objeto {
     }
 
     .principal {
-        max-width: 576px;
+        max-width: 320px;
         padding: 20px 0px 0px 0px;
         margin: 0;
     }
 
     .hero-section {
-        width: 480px;
+        width: 320px;
         padding: 0;
         margin: 0;
         margin-bottom: 50px;
