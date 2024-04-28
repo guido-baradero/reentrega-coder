@@ -55,6 +55,8 @@ h5 {
     width: 120px;
 }
 
+.navegacion {}
+
 .header .menu ul {
     list-style-type: none;
     display: flex;
@@ -367,7 +369,7 @@ h3 {
 
 .texto-secciones h4 {
     text-align: center;
-    padding: 10px;
+    padding-top: 0px;
     background-color: #fff;
 }
 
@@ -623,14 +625,10 @@ div.tag-objeto {
 ---------------------Mobile-------------------
 --------------------------------------------*/
 
-@media only screen and (max-width: 420px) {
-    body {
-        width: 100%;
-    }
+@media screen and (max-width: 576px) {
+
 
     .contenedor {
-        max-width: 420px;
-        display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-template-areas:
@@ -655,32 +653,51 @@ div.tag-objeto {
         padding: 10px;
     }
 
+    .navegacion {
+        background-color: #232f3c;
+        padding-top: 15px;
+        width: 100%;
+    }
+
     .header .menu ul {
         padding-left: 0;
         margin-left: 0;
         width: 100%;
     }
 
+    .header .menu ul li {
+        padding: auto;
+        margin: auto;
+    }
+
     .header .menu a {
 
         color: rgb(237, 164, 10);
         background-color: #232f3c;
-        padding: auto;
+        padding: 10px;
         margin: auto;
         width: 100%;
         font-weight: bold;
+        font-size: 1rem;
     }
+
 
     /*----------------Main Mobile------------------*/
 
     .main {
+
         background-color: #9df0d3;
         grid-area: main;
     }
 
+    .principal {
+        max-width: 576px;
+        padding: 20px 0px 0px 0px;
+        margin: 0;
+    }
+
     .hero-section {
-        width: 100%;
-        height: 100%;
+        width: 576px;
         padding: 0;
         margin: 0;
         margin-bottom: 50px;
@@ -787,6 +804,13 @@ div.tag-objeto {
         flex-direction: column;
     }
 
+    /*-------------motorhome----------*/
+
+    .texto-secciones h4 {
+        margin-top: 34px;
+        padding-top: 18px;
+    }
+
     /*-------------contacto--------*/
 
     .formulario {
@@ -814,7 +838,7 @@ div.tag-objeto {
 
     .aside1 img {
         border-radius: 8%;
-        max-width: 768px;
+        max-width: 576px;
     }
 
     .aside2 {
@@ -858,6 +882,7 @@ div.tag-objeto {
     /*---------------Footer--------------*/
 
     .footer {
+        grid-area: footer;
         flex-wrap: wrap;
     }
 
