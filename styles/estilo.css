@@ -473,7 +473,6 @@ div.tag-objeto {
 }
 
 .aside1 {
-    /*font-size: 1.2rem;*/
     text-align: center;
     color: white;
     padding: 40px;
@@ -498,19 +497,6 @@ div.tag-objeto {
     width: 100%;
 }
 
-
-
-.aside2 {
-    height: 400px;
-    /*font-size: 1.2rem;*/
-    text-align: center;
-    color: #9f7171;
-    padding: 10px 0 10px 0;
-    margin: 10px 0 10px 0;
-    background-image: url("../img/dibujpo-carpa.jpg");
-    background-size: cover;
-    background-position: center;
-}
 
 /*----------------saide---NAV---------------------*/
 /*----------------nav-destinos--------------------*/
@@ -901,18 +887,15 @@ div.tag-objeto {
         color: bisque;
     }
 
-    /*footer*/
+    /*--------------footer-------------------*/
 
     .footer {
         width: 100%;
         grid-area: footer;
         display: flex;
         flex-direction: column;
-        /* Cambiado a columna */
         justify-content: center;
-        /* Centrado vertical */
         align-items: center;
-        /* Centrado horizontal */
         background-color: rgb(0, 119, 149);
         border-top: #232f3c solid 2px;
     }
@@ -926,7 +909,6 @@ div.tag-objeto {
         font-size: 2.5rem;
         margin-top: 0px;
         margin-bottom: 40px;
-        /* Cambiado a margen superior para espacio */
     }
 
     .footer1 .logo img {
@@ -963,36 +945,3 @@ div.tag-objeto {
     }
 
 }
-
-
-
-
-/*---------------Footer------------
-
-    .footer {
-        grid-area: footer;
-        flex-wrap: wrap;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .footer1 {
-        width: 100%;
-    }
-
-
-    .footer2 {
-        width: 100%;
-    }
-
-    .footer2 ul {
-        text-align: center;
-    }
-
-
-    .footer3 {
-        text-align: center;
-        width: 100%;
-    }
-
-}*/
